@@ -11,13 +11,10 @@
 </p>
 
 <p align="center">
-  <strong>Yunbei Zhang<sup>1</sup></strong> &emsp;
-  <strong>Chengyi Cai<sup>2</sup></strong> &emsp;
-  <strong>Feng Liu<sup>2</sup></strong> &emsp;
-  <strong>Jihun Hamm<sup>1</sup></strong>
-</p>
-<p align="center">
-  <sup>1</sup>Tulane University &emsp; <sup>2</sup>University of Melbourne
+  <strong>Yunbei Zhang</strong> &emsp;
+  <strong>Chengyi Cai</strong> &emsp;
+  <strong>Feng Liu</strong> &emsp;
+  <strong>Jihun Hamm</strong>
 </p>
 
 ---
