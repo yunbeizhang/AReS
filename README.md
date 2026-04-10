@@ -1,11 +1,13 @@
 # Prime Once, then Reprogram Locally: An Efficient Alternative to Black-Box Service Model Adaptation
 
-### CVPR 2026 Highlight
+<p align="center">
+  <a href="https://arxiv.org/abs/2604.01474"><b>CVPR 2026 Highlight</b></a>
+</p>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2604.01474"><img src="https://img.shields.io/badge/arXiv-2604.01474-b31b1b.svg" alt="arXiv"></a>
-  <a href="#"><img src="https://img.shields.io/badge/CVPR%202026-Highlight-0073AE.svg" alt="CVPR 2026 Highlight"></a>
-  <a href="https://github.com/yunbeizhang/AReS/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-green.svg" alt="License"></a>
+  <a href="https://arxiv.org/abs/2604.01474"><img src="https://img.shields.io/badge/arXiv-2604.01474-b31b1b?style=flat-square" alt="arXiv"></a>
+  <a href="#"><img src="https://img.shields.io/badge/CVPR%202026-Highlight-0073AE?style=flat-square" alt="CVPR 2026 Highlight"></a>
+  <a href="https://github.com/yunbeizhang/AReS/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-green?style=flat-square" alt="License"></a>
 </p>
 
 <p align="center">
@@ -16,10 +18,6 @@
 </p>
 <p align="center">
   <sup>1</sup>Tulane University &emsp; <sup>2</sup>University of Melbourne
-</p>
-
-<p align="center">
-  <a href="https://arxiv.org/abs/2604.01474"><strong>[Paper]</strong></a>
 </p>
 
 ---
@@ -72,9 +70,9 @@ pip install -r requirements.txt
 
 ## Data Preparation
 
-We evaluate on ten diverse datasets: Flowers102, StanfordCars, DTD, UCF101, Food101, GTSRB, EuroSAT, OxfordPets, SUN397, and SVHN. Please download the datasets provided by [OPTML-Group/ILM-VP](https://github.com/OPTML-Group/ILM-VP), and modify `data_path` in `src/cfg.py` to point to your data directory.
+Please download the datasets provided by [OPTML-Group/ILM-VP](https://github.com/OPTML-Group/ILM-VP), and modify `data_path` in `src/cfg.py` to point to your data directory.
 
-## Quick Start: Flowers102 Example
+## Quick Start
 
 Run the full AReS pipeline (VLM setting) on Flowers102 with a single command:
 
@@ -118,7 +116,12 @@ python src/reprogram.py \
 
 ## Acknowledgements
 
-Our visual reprogramming (VR) and label mapping components build upon the [BayesianLM](https://github.com/tmlr-group/BayesianLM) codebase. We use the datasets provided by [OPTML-Group/ILM-VP](https://github.com/OPTML-Group/ILM-VP). We thank the authors for making their code and data publicly available.
+This repo is built upon the following prior works:
+
+- [BayesianLM](https://github.com/tmlr-group/BayesianLM) — visual reprogramming (VR) and label mapping components.
+- [OPTML-Group/ILM-VP](https://github.com/OPTML-Group/ILM-VP) — datasets and data preparation pipeline.
+
+We sincerely thank the authors for making their code and data publicly available.
 
 ## Citation
 
