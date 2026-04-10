@@ -1,0 +1,9 @@
+torch>=2.0.0
+torchvision>=0.15.0
+numpy
+tqdm
+lmdb
+Pillow
+timm
+git+https://github.com/openai/CLIP.git
+transformers

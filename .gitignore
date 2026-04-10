@@ -4,6 +4,16 @@
 # Overleaf project
 69158b9e825acde1750dace0/
 
+# Reference codebases (not part of this repo)
+TransVP-main/
+BayesianLM-main/
+
+# Paper PDF
+AReS.pdf
+
+# Working documents
+CODE_AUDIT.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
